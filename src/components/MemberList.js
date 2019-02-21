@@ -32,7 +32,7 @@ class MemberList extends Component {
   render(){
     return (
       <div>
-        <button className="ui primary button space" onClick={this.randomPick}>Random?</button>
+        <button className="ui primary button space" onClick={this.randomPick}>Random!</button>
         <div className="ui cards space">{this.renderMember()}</div>
       </div>
     )
