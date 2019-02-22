@@ -25,6 +25,8 @@ class InsertBar extends Component {
                  onChange={event => this.onInputChange(event)}
                  placeholder="Name"/>
         </div>
+        <button className="ui right floated positive button">Add Member</button>
+
       </form>
     )
   }
